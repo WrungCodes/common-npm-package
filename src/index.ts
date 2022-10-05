@@ -11,4 +11,6 @@ export * from './middlewares/error-handler';
 export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
+export * from './helpers/retry-until-sucessful'
+
 export * as BlockReader from './types/block-reader';
