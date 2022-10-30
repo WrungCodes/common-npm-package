@@ -15,3 +15,8 @@ export * from './middlewares/validate-request';
 export * from './helpers/retry-until-sucessful'
 
 export * as BlockReader from './types/block-reader';
+
+export * from './events/listener';
+export * from './events/publisher';
+export * from './events/subjects';
+export * from './events/create-wallet-entry-event';
