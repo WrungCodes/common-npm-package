@@ -1,4 +1,4 @@
-export enum WalletUpdateType {
+export enum WalletEntryType {
     Credit = 'credit',
     Debit = 'debit',
 }
